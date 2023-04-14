@@ -6,9 +6,9 @@ import { NextSeo } from 'next-seo';
 import { Fragment } from 'react';
 import MarketsSummaryContainer from '../components/MarketsSummaryContainer';
 import IndexPage from '../components/pages/indexPage';
-import { postsQuery } from '../lib/sanity/queries/post';
+// import { postsQuery } from '../lib/sanity/queries/post';
 //i can't find this file
-import { sanityClient } from '../lib/sanity/sanity.server';
+//import { sanityClient } from '../lib/sanity/sanity.server';
 
 // ? Reference: https://www.npmjs.com/package/next-seo
 const title = 'Bitcoin Exchange Australia | Buy BTC With AUD | BTC Markets';
@@ -35,16 +35,16 @@ const Index = (props) => {
 
 export default Index;
 
-const getStaticProps = async () => {
-  const articles = await sanityClient.fetch(postsQuery);
+// const getStaticProps = async () => {
+//   const articles = await sanityClient.fetch(postsQuery);
 
-  return {
-    props: {
-      articles,
-    },
-  };
-};
+//   return {
+//     props: {
+//       articles,
+//     },
+//   };
+// };
 
-export { getStaticProps };
+// export { getStaticProps };
 
 

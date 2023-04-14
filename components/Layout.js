@@ -5,6 +5,7 @@ import Footer from './Footer';
 import BannerAnnouncementContext from './lib/BannerAnnouncementContext';
 
 const Layout = ({ children, header, ...props }) => {
+  // console.log(props);
   const bannerAnnouncement = useContext(BannerAnnouncementContext);
 
   return (

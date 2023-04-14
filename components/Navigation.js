@@ -452,7 +452,7 @@ const Navigation = ({
                   setActiveDropdown={setActiveDropdown}
                 >
                   <NavLabel>How to buy digital assets</NavLabel>
-                  <NavUL columnCount={2}>
+                  {/* <NavUL columnCount={2}>
                     {buyAssets.map((buyAsset) => {
                       return (
                         <li key={`NavLinkBuyAsset-${buyAsset.assetName}`}>
@@ -464,7 +464,7 @@ const Navigation = ({
                         </li>
                       );
                     })}
-                  </NavUL>
+                  </NavUL> */}
                   <span>
                     <Button as={Link} href={pricesLink} size="small">
                       View all assets

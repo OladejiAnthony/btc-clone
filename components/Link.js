@@ -1,4 +1,4 @@
-import NextLink from 'next/link';
+import NextLink from 'next/image';
 import PropTypes from 'prop-types';
 
 const Link = ({ unstyled, ...props }) => {

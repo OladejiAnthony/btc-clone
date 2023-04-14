@@ -1,23 +1,23 @@
-// ignore unused exports
+// // ignore unused exports
 
-/* eslint-disable react/display-name */
-import { NextSeo } from 'next-seo';
-import { Fragment } from 'react';
-import ProtectYourselfOnlinePage from '../components/pages/ProtectYourselfOnlinePage';
+// /* eslint-disable react/display-name */
+// import { NextSeo } from 'next-seo';
+// import { Fragment } from 'react';
+// import ProtectYourselfOnlinePage from '../components/pages/ProtectYourselfOnlinePage';
 
-// ? Reference: https://www.npmjs.com/package/next-seo
-const metaTags = {
-  title: 'Online Safety | BTC Markets',
-  canonical: 'https://www.btcmarkets.net/protect-yourself-online',
-};
+// // ? Reference: https://www.npmjs.com/package/next-seo
+// const metaTags = {
+//   title: 'Online Safety | BTC Markets',
+//   canonical: 'https://www.btcmarkets.net/protect-yourself-online',
+// };
 
-const ProtectYourselfOnline = () => {
-  return (
-    <Fragment>
-      <NextSeo {...metaTags} />
-      <ProtectYourselfOnlinePage />
-    </Fragment>
-  );
-};
+// const ProtectYourselfOnline = () => {
+//   return (
+//     <Fragment>
+//       <NextSeo {...metaTags} />
+//       <ProtectYourselfOnlinePage />
+//     </Fragment>
+//   );
+// };
 
-export default ProtectYourselfOnline;
+// export default ProtectYourselfOnline;

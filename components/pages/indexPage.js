@@ -42,6 +42,8 @@ import StartTradingSection from '../StartTradingSection';
 
 const MARKETS_SUMMARY_TABLE_QTY = 5;
 
+
+
 const IconContentSection = ({
   alignImage,
   children,

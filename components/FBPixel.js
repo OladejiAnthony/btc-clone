@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from 'next/head';
 import React from 'react';
 
@@ -37,12 +38,16 @@ const FBPixel = () => {
           }}
         />
         <noscript>
-          <img
-            height="1"
-            width="1"
-            style={{ display: 'none' }}
-            src={`https://www.facebook.com/tr?id=${FACEBOOK_PIXEL_ID}&ev=PageView&noscript=1`}
-          />
+          <>
+            {/* <img
+              alt='a'
+              height="1"
+              width="1"
+              style={{ display: 'none' }}
+              src={`https://www.facebook.com/tr?id=${FACEBOOK_PIXEL_ID}&ev=PageView&noscript=1`}
+            />   */}
+          </>
+          
         </noscript>
       </Head>
     );
